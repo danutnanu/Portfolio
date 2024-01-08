@@ -246,10 +246,10 @@ section {
   text-align: center;
 }
 
-/*.section-container {
+.section-container {
   gap: 4rem;
   height: 80%;
-}*/
+}
 
 .section__pic-container {
   height: 400px;
@@ -353,16 +353,17 @@ article .icon {
 }
 
 .contact-info-container p {
-  font-size: larger;
+  font-size: 1.5rem;
+  margin-top: 1rem;
 }
 
-.contact-icon {
+/*.contact-icon {
   cursor: default;
-}
+}*/
 
-.email-icon {
+/*.email-icon {
   height: 3rem;
-}
+}*/
 
 /* FOOTER SECTION */
 
