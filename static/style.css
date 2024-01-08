@@ -44,7 +44,7 @@ nav {
 .nav-links {
   gap: 8rem;
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -55,11 +55,11 @@ a {
 
 a:hover {
   color: grey;
-  /*text-decoration: underline;*/
+  text-decoration:underline grey;
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.menu-links {
+/*.menu-links {
   position: absolute;
   top: 100%;
   right: 0;
@@ -158,11 +158,11 @@ section {
 
 /* BUTTONS */
 
-.btn-container {
+/*.btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
-}
+}*/
 
 .btn {
   font-weight: 600;
@@ -172,31 +172,34 @@ section {
   border-radius: 2rem;
 }
 
-.btn-color-1,
-.btn-color-2 {
+/*.btn-color-1,*/
+.btn-color {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
-.btn-color-1:hover,
-.btn-color-2:hover {
+/*.btn-color-1:hover,*/
+.btn-color:hover {
   cursor: pointer;
+  background: rgb(53, 53, 53);
+  color: white;
+  border: rgb(25, 5, 255) 0.1rem solid;
 }
 
-.btn-color-1:hover,
-.btn-color-2:hover {
+/*.btn-color-1:hover,*/
+/*.btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
 }
 
-.btn-color-1:hover {
+/*.btn-color-1:hover {
   background: rgb(0, 0, 0);
 }
+*/
 
 
-
-.btn-color-2:hover {
+/*.btn-color-2:hover {
   border: rgb(255, 255, 255) 0.1rem solid;
-}
+}*/
 
 .btn-container {
   gap: 1rem;
@@ -225,19 +228,19 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
-.arrow {
+/*.arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-}
+}*/
 
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
