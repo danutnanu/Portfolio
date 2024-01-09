@@ -301,7 +301,20 @@ footer {
 footer p {
   text-align: center;
 }
-
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  #desktop-nav {
+    display: none;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -394,17 +407,5 @@ footer p {
   }
   .text-container {
     text-align: justify;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-  .nav-links {
-    flex-direction: column;
-    gap: 0.5rem;
-    text-align: center;
   }
 }
