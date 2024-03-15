@@ -86,13 +86,6 @@ section {
   width: 400px;
   margin: auto 0;
   justify-content: center;
-  object-fit: cover;
-  transition: all 0.3s linear;
-}
-
-.section__pic-container:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 
 .section__text {
@@ -170,12 +163,6 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  transition: all 0.2s linear;
-}
-
-.details-container:hover {
-  cursor: pointer;
-  transform: scale(1.1);
 }
 
 .section-container {
